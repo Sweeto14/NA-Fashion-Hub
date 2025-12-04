@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NS Fashion Hub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="icon" type="image/png" href="../img/Logo.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <section id="header">
+        <!-- Logo -->
+        <a href="#"><img src="../img/Logo.png" height="100px" width="100px" class="logo" alt="Logo"></a>
+        <!-- Navigation Bar -->
+        <ul id="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="cart.html"><img src="../img/icons/bag.png" alt="bag" height="25px" width="25px"></a></li>
+        </ul>
+    </section>
+<section class="about-header">
+        <h2>#Let'sTalk</h2>
+        <p>LEAVE A MESSAGE, We Love To Hear Frm You</p>
+    </section>
+ <section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>SubTotal</td>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><img src="Images/delete.png" height="40px" width="25px"></a></td>
+                <td><img src="Images/products/p7.jpg"></td>
+                <td>Woolen upper</td>
+                <td>RS 800</td>
+                <td><input type="number" value="1"> </td>
+                <td>RS 1600</td>
+            </tr>
+            <tr>
+                <td><a href="#"><img src="Images/delete.png" height="40px" width="25px"></a></td>
+                <td><img src="Images/products/p11.jpg"></td>
+                <td>Woolen upper</td>
+                <td>RS 800</td>
+                <td><input type="number" value="1"> </td>
+                <td>RS 1600</td>
+            </tr>
+            <tr>
+                <td><a href="#"><img src="Images/delete.png" height="40px" width="25px"></a></td>
+                <td><img src="Images/products/p10.jpg"></td>
+                <td>Woolen upper</td>
+                <td>RS 800</td>
+                <td><input type="number" value="1"> </td>
+                <td>RS 1600</td>
+            </tr>
+        </tbody>
+    </table>
+     
+ </section>
+ <section id="cart-add" class="section-p1">
+    <div id="cupon">
+        <h3>Apply Cupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Cupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>RS 1600</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>RS 1600</strong></strong></td>
+            </tr>
+        </table>
+    </div>
+ </section>
+<section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+<footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="Images/Logo.png" height="100px" width="100px" alt="logo">
+            <h4> Contact</h4>
+            <p><strong>Adress:</strong>Taxila Cantt,Muslim Colony</p>
+            <p><strong>Phone:</strong>03224509560</p>
+            <p><strong>Hours:</strong>8:00-1:40 Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Infromation</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play </p>
+            <div class="row">
+                <img src="Images/pay/play.jpg" alt="icon">
+                <img src="Images/pay/app.jpg" alt="icon">
+            </div>
+            <p>Secured Payment Gtaeways</p>
+            <img src="Images/pay/pay.png" alt="easypasia">
+        </div>
+
+        <div class="copyright">
+            <p>©By Naveera Aziz (Class:9th A @2025)</p>
+        </div>
+    </footer>
+    
+<div id="chatbot-container">
+        <div id="chat-icon" onclick="toggleChat()">
+            <i class="fas fa-comments"></i>
+        </div>
+
+        <div id="chat-window">
+            <div class="chat-header">
+                <h4>NS Fashion Hub Support</h4>
+                <button onclick="toggleChat()">X</button>
+            </div>
+            <div id="chat-body" class="chat-body">
+                <p class="message bot-message">Hello! How can I help you today?</p>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type a message..." onkeydown="handleKeyPress(event)">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+    <script src="script.js"></script>
+</body>
+
+</html>
